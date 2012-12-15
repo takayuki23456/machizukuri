@@ -1,0 +1,296 @@
+<div id="gdj">
+  <h2>活動記録</h2>
+  <div style="padding:10px 0 5px 30px;">
+    <p class="ttl_p" style="font-size: 110%;"> NPO法人 東淀川地域町づくりの会の活動記録を一部、ご紹介させていただきます。</p>
+  </div>
+  <%if @vol%>
+    <%=
+    begin
+      render(:partial => "content/activity/vol/#{@vol}")
+    rescue => e
+      p e
+      render(:partial => "content/activity/vol/year_2010")
+    end
+  %>
+    <%img = "background: url(/images/common/release03long.gif) no-repeat;"%>
+    <div id="activity">
+      <dl>
+        <dt style="<%=img if @vol =="vol31"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月20日　吹田支部新創設・ＪＲ岸辺駅周辺の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol31"},{:title=>"2011年3月20日　吹田支部新創設・ＪＲ岸辺駅周辺の美化活動を行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol30"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月　東淀川NPO、ボランティア連絡会主催「いっしょフェスタ」に参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol30"},{:title=>"2011年3月　東淀川NPO、ボランティア連絡会主催「いっしょフェスタ」に参加しました。"})%></dt>
+
+        <dt style="<%=img if @vol =="vol29"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年9月　区民祭りにて、東淀川NPO連絡会から、かき氷を販売しました。",{:controller=>:activity,:action=>:index,:id =>"vol29"},{:title=>"2011年9月　区民祭りにて、東淀川NPO連絡会から、かき氷を販売しました"})%></dt>
+        <dt style="<%=img if @vol =="vol28"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年7月、8月　小学校などの夏祭り、盆踊りにて、防災防犯パトロールを行いました。",{:controller=>:activity,:action=>:index,:id =>"vol28"},{:title=>"2011年7月、8月　小学校などの夏祭り、盆踊りにて、防災防犯パトロール、構内、周辺の美化活動を行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol27"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年6月　東北地方太平洋沖地震被災地へのボランティア活動の発表をしました。",{:controller=>:activity,:action=>:index,:id =>"vol27"},{:title=>"2011年6月　東北地方太平洋沖地震被災地へのボランティア活動の発表をしました。"})%></dt>
+
+        <dt style="<%=img if @vol =="vol26"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月25日 東北地方太平洋沖地震被災地、岩手県大船渡市に行ってきました。",{:controller=>:activity,:action=>:index,:id =>"vol26"},{:title=>"東北地方太平洋沖地震被災地、岩手県大船渡市に行ってきました。"})%></dt>
+        <dt style="<%=img if @vol =="vol25"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年　淡路駅前で車椅子、乳母車等の通行を妨げていたポールを撤去しました。",{:controller=>:activity,:action=>:index,:id =>"vol25"},{:title=>"2011年　淡路駅前で車椅子、乳母車等の通行を妨げていたポール撤去しました。"})%></dt>
+
+        <dt style="<%=img if @vol =="vol17"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年 毎１カ月に2回の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol17"},{:title=>"2011年 毎１カ月に2回の美化活動を行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol14"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年1月 4カ月に一回、大規模巡回パトロールを行っています。（淡路区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol14"},{:title=>"2011年1月 4カ月に一回、大規模巡回パトロールを行っています。"})%></dt>
+        <dt style="<%=img if @vol =="vol19"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年 毎週1回区内中学校におきまして朝の見守り隊を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol19"},{:title=>"2011年 毎週1回区内中学校におきまして朝の見守り隊を行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol23"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年12月　恒例の餅つき大会。子供たち一緒に行いました。",{:controller=>:activity,:action=>:index,:id =>"vol23"},{:title=>"2010年12月　恒例の餅つき大会。子供たち一緒に行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol24"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年12月　毎年恒例の忘年会。今年も一年の疲れを癒しました。",{:controller=>:activity,:action=>:index,:id =>"vol24"},{:title=>"2010年12月　毎年恒例の忘年会。今年も一年の疲れを癒しました。"})%></dt>
+        <dt style="<%=img if @vol =="vol21"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年11月　あすわーく主催のバザーに参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol21"},{:title=>"2011年　あすわーく主催のバザーに参加しました。"})%></dt>
+
+        <dt style="<%=img if @vol =="vol22"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年11月　淡路中学校にてAWAKYOカーニバルに参加。",{:controller=>:activity,:action=>:index,:id =>"vol22"},{:title=>"2010年　淡路中学校にて淡教カーニバルに参加。"})%></dt>
+        <dt style="<%=img if @vol =="vol16"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年10月　豊里支部新創設。",{:controller=>:activity,:action=>:index,:id =>"vol16"},{:title=>"2010年10月　豊里支部新創設。"})%></dt>
+
+        <dt style="<%=img if @vol =="vol20"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年9月　4カ月に一回、大規模巡回パトロールを行っています。（井高野区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol20"},{:title=>"2010年9月　４ヶ月に一回大規模パトロール。"})%></dt>
+        <dt style="<%=img if @vol =="vol15"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年8月から地域の青色パトロールに参加。",{:controller=>:activity,:action=>:index,:id =>"vol15"},{:title=>"2010年8月から地域の青色パトロールに参加。"})%></dt>
+        <dt style="<%=img if @vol =="vol18"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年7月 恒例の夏の納涼会。淡路駅前二十八萬石にて。",{:controller=>:activity,:action=>:index,:id =>"vol18"},{:title=>"2010年7月 恒例の夏の納涼会。淡路駅前二十八萬石"})%></dt>
+        <dt style="<%=img if @vol =="vol13"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年5月 4カ月に一回、大規模巡回パトロールを行っています。（上新庄区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol13"},{:title=>"4カ月に一回、防犯防災を呼掛け、大規模巡回パトロールを行っています。"})%></dt>
+        <dt style="<%=img if @vol =="vol12"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 地域見回り活動(月例:月二回)",{:controller=>:activity,:action=>:index,:id =>"vol12"},{:title=>"2010年　地域見回り活動(月例:月二回)"})%></dt>
+        <dt style="<%=img if @vol =="vol11"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 町の見守り隊（福祉活動）",{:controller=>:activity,:action=>:index,:id =>"vol11"},{:title=>"2010年　町の見守り隊（福祉活動）"})%></dt>
+        <dt style="<%=img if @vol =="vol7"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 毎１カ月に2回の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol7"},{:title=>"2010/02/13１カ月に2回の美化活動を行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol6"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 区内中学校におきまして、朝の見守り隊を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol6"},{:title=>"2010/02/08 区内中学校におきまして、朝の見守り隊を行いました "})%></dt>
+        <dt style="<%=img if @vol =="vol5"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて",{:controller=>:activity,:action=>:index,:id =>"vol5"},{:title=>"2010年　わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて"})%></dt>
+        <dt style="<%=img if @vol =="vol4"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 西淡路日の出友愛クラブ様と公園の掃除をおこないました。",{:controller=>:activity,:action=>:index,:id =>"vol4"},{:title=>"2010/01/22 活動記録 VOL4"})%></dt>
+        <dt style="<%=img if @vol =="vol3"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年1月 4カ月に一回、大規模巡回パトロールを行っています。（淡路区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol3"},{:title=>"淡路・西淡路・東中島・柴島地域の美化並びに防犯防災の注意を呼び掛け巡回いたしました。"})%></dt>
+        <dt style="<%=img if @vol =="vol10"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("毎年恒例の餅つき大会、 子供たちと一緒に行いました。",{:controller=>:activity,:action=>:index,:id =>"vol10"},{:title=>"毎年恒例の餅つき大会、 子供たちと一緒に行いました。"})%></dt>
+        <dt style="<%=img if @vol =="vol9"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("恒例の忘年会　一年の疲れを癒しました。",{:controller=>:activity,:action=>:index,:id =>"vol9"},{:title=>"恒例の忘年会　一年の疲れを癒しました。"})%></dt>
+        <dt style="<%=img if @vol =="vol2"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("あすわーく主催のバザーに自転車の整備及び警備として参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol2"},{:title=>"あすわーく主催のバザーに自転車の整備及び警備として参加しました。"})%></dt>
+        <dt style="<%=img if @vol =="vol1"%>margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("連合会の要請により、区内の小学校校庭の草刈りをおこないました。総勢23人",{:controller=>:activity,:action=>:index,:id =>"vol1"},{:title=>"連合会の要請により、区内の小学校校庭の草刈りをおこないました。総勢23人"})%></dt>
+      </dl>
+    </div><!-- release -->
+  <%else%>
+
+    <div id="activity">
+      <dl>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月20日　吹田支部新創設・ＪＲ岸辺駅周辺の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol31"},{:title=>"2011年3月20日　吹田支部新創設・ＪＲ岸辺駅周辺の美化活動を行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月　東淀川NPO、ボランティア連絡会主催「いっしょフェスタ」に参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol30"},{:title=>"2011年3月　東淀川NPO、ボランティア連絡会主催「いっしょフェスタ」に参加しました。"})%></dt>
+
+
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年9月　区民祭りにて、東淀川NPO連絡会から、かき氷を販売しました。",{:controller=>:activity,:action=>:index,:id =>"vol29"},{:title=>"2011年9月　区民祭りにて、東淀川NPO連絡会から、かき氷を販売しました"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年7月、8月　小学校などの夏祭り、盆踊りにて、防災防犯パトロールを行いました。",{:controller=>:activity,:action=>:index,:id =>"vol28"},{:title=>"2011年7月、8月　小学校などの夏祭り、盆踊りにて、防災防犯パトロール、構内、周辺の美化活動を行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年6月　東北地方太平洋沖地震被災地へのボランティア活動の発表をしました。",{:controller=>:activity,:action=>:index,:id =>"vol27"},{:title=>"2011年6月　東北地方太平洋沖地震被災地へのボランティア活動の発表をしました。"})%></dt>
+
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年3月25日 東北地方太平洋沖地震被災地、岩手県大船渡市に行ってきました。",{:controller=>:activity,:action=>:index,:id =>"vol26"},{:title=>"東北地方太平洋沖地震被災地、岩手県大船渡市に行ってきました。"})%></dt>
+
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年　淡路駅前で車椅子、乳母車等の通行を妨げていたポールを撤去しました。",{:controller=>:activity,:action=>:index,:id =>"vol25"},{:title=>"2011年　淡路駅前で車椅子、乳母車等の通行を妨げていたポール撤去しました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年 毎１カ月に2回の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol17"},{:title=>"2011年 毎１カ月に2回の美化活動を行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年1月 4カ月に一回、大規模巡回パトロールを行っています。（淡路区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol14"},{:title=>"2011年1月 4カ月に一回、大規模巡回パトロールを行っています。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2011年 毎週1回区内中学校におきまして朝の見守り隊を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol19"},{:title=>"2011年 毎週1回区内中学校におきまして朝の見守り隊を行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年12月　恒例の餅つき大会。子供たち一緒に行いました。",{:controller=>:activity,:action=>:index,:id =>"vol23"},{:title=>"2010年12月　恒例の餅つき大会。子供たち一緒に行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年12月　毎年恒例の忘年会。今年も一年の疲れを癒しました。",{:controller=>:activity,:action=>:index,:id =>"vol24"},{:title=>"2010年12月　毎年恒例の忘年会。今年も一年の疲れを癒しました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年11月　あすわーく主催のバザーに参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol21"},{:title=>"2011年　あすわーく主催のバザーに参加しました。"})%></dt>
+
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年11月　淡路中学校にてAWAKYOカーニバルに参加。",{:controller=>:activity,:action=>:index,:id =>"vol22"},{:title=>"2010年　淡路中学校にて淡教カーニバルに参加。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年10月　豊里支部新創設。",{:controller=>:activity,:action=>:index,:id =>"vol16"},{:title=>"2010年10月　豊里支部新創設。"})%></dt>
+
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年9月　4カ月に一回、大規模巡回パトロールを行っています。（井高野区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol20"},{:title=>"2010年9月　４ヶ月に一回大規模パトロール。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年8月から地域の青色パトロールに参加。",{:controller=>:activity,:action=>:index,:id =>"vol15"},{:title=>"2010年8月から地域の青色パトロールに参加。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年7月 恒例の夏の納涼会。淡路駅前二十八萬石にて。",{:controller=>:activity,:action=>:index,:id =>"vol18"},{:title=>"2010年7月 恒例の夏の納涼会。淡路駅前二十八萬石。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年5月 4カ月に一回、大規模巡回パトロールを行っています。（上新庄区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol13"},{:title=>"4カ月に一回、防犯防災を呼掛け、大規模巡回パトロールを行っています。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 地域見回り活動(月例:月二回)",{:controller=>:activity,:action=>:index,:id =>"vol12"},{:title=>"2010年　地域見回り活動(月例:月二回)"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 町の見守り隊（福祉活動）",{:controller=>:activity,:action=>:index,:id =>"vol11"},{:title=>"2010年　町の見守り隊（福祉活動）"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 毎１カ月に2回の美化活動を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol7"},{:title=>"2010/02/13１カ月に2回の美化活動を行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 区内中学校におきまして、朝の見守り隊を行いました。",{:controller=>:activity,:action=>:index,:id =>"vol6"},{:title=>"2010/02/08 区内中学校におきまして、朝の見守り隊を行いました "})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて",{:controller=>:activity,:action=>:index,:id =>"vol5"},{:title=>"2010年　わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年 西淡路日の出友愛クラブ様と公園の掃除をおこないました。",{:controller=>:activity,:action=>:index,:id =>"vol4"},{:title=>"2010/01/22 活動記録 VOL4"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("2010年1月 4カ月に一回、大規模巡回パトロールを行っています。（淡路区域にて）",{:controller=>:activity,:action=>:index,:id =>"vol3"},{:title=>"2010年1月 4カ月に一回、大規模巡回パトロールを行っています。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("毎年恒例の餅つき大会、 子供たちと一緒に行いました。",{:controller=>:activity,:action=>:index,:id =>"vol10"},{:title=>"毎年恒例の餅つき大会、 子供たちと一緒に行いました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("恒例の忘年会　一年の疲れを癒しました。",{:controller=>:activity,:action=>:index,:id =>"vol9"},{:title=>"恒例の忘年会　一年の疲れを癒しました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("あすわーく主催のバザーに自転車の整備及び警備として参加しました。",{:controller=>:activity,:action=>:index,:id =>"vol2"},{:title=>"あすわーく主催のバザーに自転車の整備及び警備として参加しました。"})%></dt>
+        <dt style="margin:10px 0 5px 0;padding:6px 0 2px 35px;"><%= link_to("連合会の要請により、区内の小学校校庭の草刈りをおこないました。総勢23人",{:controller=>:activity,:action=>:index,:id =>"vol1"},{:title=>"連合会の要請により、区内の小学校校庭の草刈りをおこないました。総勢23人"})%></dt>
+      </dl>
+    </div><!-- release -->
+  <%#[7,6,5,4,3,2,1].each do |i|%>
+  <%#= render(:partial => "content/activity/vol/vol#{i}")%>
+  <%#end%>
+    <table style="padding:0 0 0 25px;width:700px">
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>地域見回り活動(月例:月二回)</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-067.png",:alt=>"地域見回り活動(月例:月二回) 1",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-066.png",:alt=>"地域見回り活動(月例:月二回) 2",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>町の見守り隊（福祉活動）</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-061.png",:alt=>"身体障害者のための交通誘導支援を行いました。",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-064.png",:alt=>"身体障害者のための交通誘導支援を行いました。",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>１カ月に2回の美化活動を行いました。</b></p>
+          &nbsp;淀川キリスト教病院周辺・柴島駅周辺・菅原地域遊歩道・東淡路周辺・崇禅寺駅周辺・柴島浄水場周辺におきまして、<br/>
+          &nbsp;１カ月に2回の美化活動を行いました。2010年
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-035.png",:alt=>"１カ月に2回の美化活動を行いました。",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-036.png",:alt=>"１カ月に2回の美化活動を行いました。",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>2010年 阪急京都線遊歩道にて美化活動を行いました。(1か月に2回の美化活動)</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-025.png",:alt=>"淡路中学校で見守り隊を行いました。１",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-026.png",:alt=>"淡路中学校で見守り隊を行いました。２",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>月例、月2回(第二・第四土曜日)の美化活動の様子。淡路周辺にて。</b></p>
+          &nbsp;毎月2回の美化活動を行っています。
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-002.png",:alt=>"二回(第二・第四土曜日)の淡路周辺美化活動",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-001.png",:alt=>"二回(第二・第四土曜日)の淡路周辺美化活動",:size=>"300x214")%>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>2010年 区内中学校におきまして、見守り隊を行いました。(週1回の見守り隊、朝・夕)</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-024.png",:alt=>"淡路中学校で見守り隊を行いました。２",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-020.png",:alt=>"淡路中学校におきまして、朝の見守り隊に参加いたしました。２",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて</b></p>
+          &nbsp;メンバーがみのりちゃんの気ぐるみを着て、子供たちと触れ合い遊びました。<br/>
+          &nbsp;他、自転車の整備及び警備を行いました。
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-033.png",:alt=>"わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-034.png",:alt=>"わくわく子育てみのりちゃんフェスタ、東淀川区区役所にて",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>西淡路日の出友愛クラブ様と一緒に公園の掃除をおこないました。(月例・月1回)</b></p>
+
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-007.png",:alt=>"西淡路　日の出友愛クラブ様と一緒に公園の掃除をさせていただきました １",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-008.png",:alt=>"西淡路　日の出友愛クラブ様と一緒に公園の掃除をさせていただきました　２",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>淡路・西淡路・東中島・柴島地域の美化並びに防犯防災の注意を呼び掛け巡回いたしました。</b></p>
+          &nbsp;総勢50人　(不定期)
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-011.png",:alt=>"淡路・西淡路・東中島・柴島地域を美化並びに防犯防災の注意を呼び掛け巡回いたしました。１",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-012.png",:alt=>"淡路・西淡路・東中島・柴島地域を美化並びに防犯防災の注意を呼び掛け巡回いたしました。　２",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>防犯防災の注意を呼び掛け巡回いたしました。</b></p>
+          &nbsp;東中島～総禅寺～柴島～豊新～菅原～下新庄～淡路～西淡路を約2時間かけ、<br/>
+          &nbsp;防犯防災の注意を呼び掛け巡回いたしました。総勢70人　2010年 (４カ月に1回の防犯・防災抑止巡回)
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-021.png",:alt=>"防犯防災の注意を呼び掛け巡回いたしました。１",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-022.png",:alt=>"防犯防災の注意を呼び掛け巡回いたしました。２",:size=>"300x214")%>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>知的障害者授産施設　あすわーく主催のバザーに自転車の整備及び警備として参加しました。</b></p>
+          &nbsp;淡路地域福祉・生活支援センター　つどいホールにて。
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-005.png",:alt=>"淡路地域福祉・生活支援センター　つどいホールにて １",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-006.png",:alt=>"淡路地域福祉・生活支援センター　つどいホールにて　２",:size=>"300x214")%>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" valign="top" style="padding:8px 0 5px 5px">
+          <p style="background: url(/images/common/0001.gif) no-repeat;padding:8px 0 0 22px">
+            <b>連合会の要請により、区内の小学校校庭の草刈りをおこないました。総勢23人</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-037.png",:alt=>"淡路小学校の校庭の草刈りをしました。１",:size=>"300x214")%>
+        </td>
+        <td style="width:170px">
+          <%=image_tag("activity/vol1/activity1-010.png",:alt=>"淡路小学校の校庭の草刈りをしました。　２",:size=>"300x214")%>
+        </td>
+      </tr>
+
+    </table>
+
+
+
+
+
+
+    <% @seo_keywords = '活動記録,町づくり,東淀川,ボランティア,地域町づくりの会,見回り,身体障害者' %>
+    <% @seo_description = 'NPO法人 東淀川地域町づくりの会の活動記録を一部、ご紹介させていただきます。'%>
+    <% @seo_title = "活動記録TOP | 住んでみたい明るい町づくり - #{ConstantsList::SITE_NAME}"%>
+  <%end%>
+
+  <br/>
+
+</div>

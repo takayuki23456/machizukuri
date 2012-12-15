@@ -1,0 +1,16 @@
+<div id="footer"><!-- footer -->
+  <ul>
+    <li><%= link_to("HOME",top_url,{:title=>"HOME"})%></li>
+    <li><%= link_to("町づくりの会とは？",{:controller=>:content,:action=>:about},{:title=>"地域町づくりの会とは？"})%></li>
+    <li><%= link_to("活動記録",{:controller=>:activity,:action=>:top},{:title=>"活動記録"})%></li>
+    <li><%= link_to("支持者の声",{:controller=>:content,:action=>:voice},{:title=>"支持者の声"})%></li>
+    <li><%= link_to("支援者一覧",{:controller=>:content,:action=>:supporter},{:title=>"支援者一覧"})%></li>
+    <li><%= link_to("ボランティア募集",{:controller=>:contact,:action=>:index,:id=>contact_kind[0]},{:title=>"ボランティア募集ページ"})%></li>
+    <li><%= link_to("プライバシーポリシー",{:controller=>:content,:action=>:privacy},{:title=>"プライバシーポリシー"})%></li>
+    <li><%= link_to("運営組織",{:controller=>:content,:action=>:info},{:title=>"組織"})%></li>
+     <li><%= link_to("お問い合わせ",{:controller=>:contact,:action=>:index,:id=>contact_kind[3]},{:title=>"お問い合わせ"})%></li>
+  </ul>
+  <br>
+  <p>Copyright&copy;2010 <%=ConstantsList::SITE_NAME%> All rights reserved.</p>
+  </br>
+</div><!-- footer -->

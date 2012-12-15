@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+  <head>
+    <meta name="google-site-verification" content="Bsqhlu6pOz7qah2onlZ3nrun-o8crDjb-fivbA4OwX0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta name="keywords" content="<%= @seo_keywords || '防犯防災,美化活動,町づくり,東淀川,ボランティア,地域町づくりの会,見回り,身体障害者' %>"/>
+    <meta name="description" content="<%= @seo_description || '地域づくりの意識を高め、高齢者や身体障害者、子供達など、誰もが明るく快適に暮らせる地域づくり地域づくりを目指し又、少しでも犯罪や防災に対しての意識を促し、誰もが住んでよかった・住んでみたいと思うような美しく安全で健康的な空間の町づくりの礎となる活動を目的としております。'%>"/>
+    <meta name="author" content="#{ConstantsList::SITE_NAME}" lang="ja" xml:lang="ja" />
+    <meta name="copyright" content="Copyright &copy; higashiyodogawa-machizukuri.org. All Rights Reserved." />
+
+    <title><%= @seo_title || "住んでみたい明るい町づくり - #{ConstantsList::SITE_NAME}"%></title>
+    <%if false%>
+      <link rel="shortcut icon" href="../images/common/common/favicon.ico" />
+    <%end%>
+    <%= stylesheet_link_tag 'design',:media=>"all"%>
+    <%= stylesheet_link_tag 'search',:media=>"all"%>
+
+    <%= javascript_include_tag :defaults %>
+    <%= javascript_include_tag "swfobject"%>
+    <%= javascript_include_tag 'menu' %>
+    <%= javascript_include_tag 'AC_RunActiveContent' %>
+  </head>
+  <body>
+    <div id="page"><!-- page -->
+      <%= render :partial => "content/shared/header" %>
+      <div id="title"><!-- title -->
+        <h1>
+          <%= link_to(image_tag("logo.gif",:alt=>"住んでみたい明るい町づくり - #{ConstantsList::SITE_NAME}"),:controller=>:content,:action=>:top)%>
+          <%= link_to(image_tag("logo2.gif",:alt=>"#{ConstantsList::SITE_NAME} | 明るい町づくりで掴む信頼と安心" ),:controller=>:content,:action=>:top)%>
+        </h1>
+      </div>
+      <!-- title -->
+      <div id="container"><!-- container -->
+        <div id="mainbox"><!-- mainbox -->
+          <div id="navi"><!-- navi -->
+            <ul>
+              <li><%= link_to(image_tag("navi/navi01_off.gif",:alt=>"地域街づくりの会とは？" ,:width=>"141",:height=>"78"),{:controller=>:content,:action=>:about},{:title=>"地域街づくりの会とは？"})%></li>
+              <li><%= link_to(image_tag("navi/navi02_off.gif",:alt=>"活動記録" ,:width=>"141",:height=>"78"),{:controller=>:activity,:action=>:top},{:title=>"活動記録"})%></li>
+              <li><%= link_to(image_tag("navi/navi03_off.gif",:alt=>"支援者の声" ,:width=>"141",:height=>"78"),{:controller=>:content,:action=>:voice},{:title=>"支援者の声"})%></li>
+              <li><%= link_to(image_tag("navi/navi04_off.gif",:alt=>"ボランティア募集" ,:width=>"141",:height=>"78"),{:controller=>:contact,:action=>:index,:id=>contact_kind[0]},{:title=>"ボランティア募集ページ"})%></li>
+              <li><%= link_to(image_tag("navi/navi05_off.gif",:alt=>"組織" ,:width=>"141",:height=>"78"),{:controller=>:content,:action=>:info},{:title=>"組織"})%></li>
+            </ul>
+          </div><!-- navi -->
+          <%= yield  %>
+        </div><!-- mainbox -->
+        <%= render :partial => "content/shared/side_box" %>
+      </div><!-- container -->
+      <%if @news%>
+        <div id="information"><!-- information -->
+          <div id="release"><!-- release -->
+            <dl>
+              <dt><%= link_to("東北地方太平洋沖地震被災地に行ってきました。",{:controller=>:activity,:action=>:index,:id =>"vol26"},{:title=>"東北地方太平洋沖地震被災地、岩手県大船渡市に行ってきました。"})%></dt>
+              <dt><%= link_to("<b style='color:red;'>NEW</b> 淡路駅前のポールを撤去しました。",{:controller=>:activity,:action=>:index,:id =>"vol25"},{:title=>"淡路駅前のポールを撤去しました。"})%></dt>
+
+              <dt><%= link_to("2011年　活動記録",{:controller=>:activity,:action=>:index,:id =>"year_2011"},{:title=>"2011年　活動記録"})%></dt>
+              <dt><%= link_to("2010年　活動記録",{:controller=>:activity,:action=>:index,:id =>"year_2010"},{:title=>"2010年　活動記録"})%></dt>
+              <dt><%= link_to("2009年　活動記録",{:controller=>:activity,:action=>:index,:id =>"year_2009"},{:title=>"2009年　活動記録"})%></dt>
+
+            </dl>
+          </div><!-- release -->
+          <div id="news"><!-- news -->
+            <dl>
+              <dt><%=link_to("2010/03/10 市民日報に理事長が紹介されました!",{:controller=>:topics,:action=>:index,:id=>"vol2"},{:title=>"2010/03/10 市民日報に理事長が紹介されました!"})%></dt>
+            </dl>
+            <dl>
+              <dt><%=link_to("2010/02/10 市民日報に取り上げられました!",{:controller=>:topics,:action=>:index,:id=>"vol1"},{:title=>"2010/02/10 市民日報に取り上げられました!"})%></dt>
+            </dl>
+            <dl>
+              <dt><%=link_to("活動記録の一部を納めた動画を公開いたしました！",{:controller=>:activity,:action=>:movie},{:title=>"活動記録の一部を納めた動画を公開いたしました"})%></dt>
+            </dl>
+            <dl>
+              <dt><%=link_to("ボランティア募集",{:controller=>:contact,:action=>:index,:id=>contact_kind[0]},{:title=>"ボランティア募集ページ"})%></dt>
+              <dd>できることから始めよう。楽しい町づくり。</dd>
+            </dl>
+          </div><!-- news -->
+        </div><!-- information -->
+      <%end%>
+      <%= render :partial => "content/shared/footer" %>
+
+    </div><!-- page -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-13121738-1");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
+
+    <!-- Woopra Code Start -->
+    <script type="text/javascript" src="//static.woopra.com/js/woopra.v2.js"></script>
+    <script type="text/javascript">
+      woopraTracker.setDomain("higashiyodogawa-machizukuri.org");
+      woopraTracker.track();
+    </script>
+    <!-- Woopra Code End -->
+  </body>
+</html>

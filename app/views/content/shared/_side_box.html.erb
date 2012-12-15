@@ -1,0 +1,40 @@
+<div id="sidebox" ><!-- sidebox -->
+
+  <div id="links" style="padding-top:18px"><!-- links -->
+    <dl>
+      <dt><%=link_to("連絡事務所",{:controller=>:content,:action=>:info},{:title=>"連絡事務所"})%></dt>
+      <dd>
+        <%=ConstantsList::SITE_NAME%><br/>
+        大阪市東淀川区淡路5丁目2番8号<br/>
+        TEL：(06)6326-3232㈹<br/>
+        FAX：(06)6326-2121㈹<br/>
+        平日：月曜日～金曜日<br/>
+        午前９時３０分～午後５時<br/>
+        土,日,祝祭日休み
+      </dd>
+    </dl>
+    <dl>
+      <dt><%=link_to("ご挨拶",{:controller=>:content,:action=>:greeting},{:title=>"ご挨拶"})%></dt>
+      <dd>理事長及び専務理事の挨拶</dd>
+    </dl>
+    <dl>
+      <dt><%=link_to("ご支援いただいている皆様",{:controller=>:content,:action=>:supporter},{:title=>"ご支援いただいている皆様"})%></dt>
+      <dd>町づくりの会にご支援をしていただいた企業及び個人の皆様のご紹介</dd>
+    </dl>
+    <dl>
+      <dt><%=link_to("ボランティアとは？",{:controller=>:content,:action=>:volunteer},{:title=>"ボランティアとは？"})%></dt>
+      <dd>ボランティア活動について、皆さんはどのようなイメージをお持ちでしょうか？</dd>
+    </dl>
+    <dl>
+      <dt><%=link_to("アクセス方法",{:controller=>:content,:action=>:access},{:title=>"アクセス方法"})%></dt>
+      <dd>町づくりの会運営事務局までのアクセス方法</dd>
+    </dl>
+     <dl>
+      <dt><%=link_to("お知らせ","/pdf/soao-to.pdf",{:title=>"アクセス方法"})%></dt>
+      <dd>
+        東日本大震災復興チャリティーキャンペーンを始めました。<br/>ソア・オート
+      </dd>
+    </dl>
+  </div><!-- links -->
+</div>
+<!-- sidebox -->

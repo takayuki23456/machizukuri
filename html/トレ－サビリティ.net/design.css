@@ -1,0 +1,687 @@
+@charset "UTF-8";
+
+
+/* 基本設定----------------------------------------------------------- */  
+
+* {
+	margin:0;
+	padding:0;
+	font-size: 13px;
+
+
+  *font-size: small;
+  *font: x-small;
+}  
+
+
+
+/* 基本フォント・リンク設定----------------------------------------------------------- */  
+
+
+body {
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size:100%;
+	color:#222222;
+	font-weight:400;
+}  
+h1,h3,h4,h5,h6 {  
+   font-weight:1000;  
+   font-family:Verdana, "ＭＳ Ｐゴシック", sans-serif; 
+   font-size:105%;
+}  
+p,li {  
+   line-height:120%;  
+}  
+p {  
+   margin:0 0 1em 0;  
+}  
+li {  
+   list-style-type:none;  
+}  
+img {  
+   border:0;  
+}  
+
+
+a {  
+   text-decoration:none;  
+}  
+a:link {  
+   color:#333333;  
+   text-decoration:none;
+}  
+a:visited {  
+   color:#333333;
+  
+}  
+a:hover { 
+   color:#666666;   
+   text-decoration:underline;  
+}  
+a:active {  
+   color:#666666;  
+} 
+
+
+/* 全体設定----------------------------------------------------------- */  
+
+
+#page {  
+   width:1000px;  
+   margin:0 auto;  
+   background:#FFFFFF;  
+} 
+
+
+/* ヘッダー設定----------------------------------------------------------- */  
+
+#header {
+   width:1000px;
+   height:30px;
+   background:url(img/bg_header.gif) repeat-x;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 15px -5px 0px;
+   z-index:1;
+}
+
+#header ul{
+   margin: 0px 15px 0px 0px;
+}
+
+
+#header ul li{
+   margin: 20px 0px 0px 0px;
+   float:right;
+}
+
+
+
+/* タイトル設定----------------------------------------------------------- */  
+
+
+#title{
+   width:972px;
+   margin: 0 auto;
+}
+
+
+/* コンテナー設定----------------------------------------------------------- */  
+
+#container{
+   width:972px;
+   margin: 0 auto;
+}
+
+#mainbox,#sidebox{
+   float:left;
+}
+
+
+#flash{
+   float:left;
+}
+
+/* メインボックス設定----------------------------------------------------------- */ 
+
+#mainbox{
+   width:710px;
+   margin: 10px 5px 0px 5px;
+}
+
+/* テーマ設定----------------------------------------------------------- */ 
+
+#mainbox h2{
+   font-family: Osaka, "ヒラギノ角ゴ Pro W3";
+   color:#336600;　　
+}
+
+
+/* ナビゲーション設定----------------------------------------------------------- */ 
+
+
+#navi ul li{
+   margin-top: 7px;
+   float:left;
+}
+
+
+/* サイドボックス（バナー）設定----------------------------------------------------------- */ 
+
+#sidebox{
+   width:245px;
+   float:right;
+}
+
+
+/* トップページ下部インフォメーション設定----------------------------------------------------------- */ 
+
+#information{
+   width:972px;
+   margin: 0 auto;
+}
+
+
+#release{
+   width:353px;
+   float:left;
+}
+
+#release dl dt{
+   background: url(img/release02.gif) no-repeat;
+   padding: 6px 0 10px 35px;
+}
+
+#release dl dd{
+   padding: 6px 0 6px 35px;
+   margin: 3px 5px 10px 6px;
+   border:dotted 1px #999999;
+}
+
+
+
+#news{
+   width:353px;
+   float:left;
+}
+
+#news dl dt{
+   padding: 6px 0 10px 35px;
+   background: url(img/news02.gif) no-repeat;
+}
+
+
+#news dl dd{
+   padding: 6px 0 20px 6px;
+   margin: 3px 5px 10px 5px;
+   border:dotted 1px #999999;
+}
+
+   
+#links{
+   width:245px;
+   float:right;
+}
+   
+#links dl dt{
+   background: url(img/links02.gif) no-repeat;
+   padding: 6px 0 10px 35px;
+}
+
+#links dl dt a{
+   color:#FFFFFF;
+}
+
+
+
+#links dl dd{
+   padding: 6px 0 20px 6px;
+   margin: 3px 5px 10px 5px;
+   border:dotted 1px #999999;
+}
+
+
+
+
+
+
+/* トレーサビリティとは？設定----------------------------------------------------------- */ 
+
+
+#whatis{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 40px 0px;
+   border:dotted 1px #999999; 
+}
+
+#whatis p{
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#whatis h3 img{
+   margin: 15px 0 20px 10px;
+   padding: 0 0 0 10px;   
+}
+
+#whatis img{
+   margin: 0px 0 0px 10px;
+   padding: 10px 0 5px 10px;   
+}
+
+
+#next{
+   width:700px;
+   margin: 0px 0 0px 10px;
+}
+
+#next a img{
+   padding: 30px 0 0px 185px;
+}
+
+
+
+
+
+/* 業種別トレーサビリティ設定----------------------------------------------------------- */ 
+
+
+#class{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 40px 0px;
+   border:dotted 1px #999999; 
+}
+
+#class p{
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#class h3 img{
+   margin: 15px 0 20px 10px;
+   padding: 0 0 0 10px;   
+}
+
+#class img{
+   margin: 0px 0 0px 10px;
+   padding: 0px 0 5px 10px;   
+}
+
+#class_banner {
+   width:675px;
+   float:left;
+   margin: 20px 0px 30px 8px;
+   }
+   
+#class_banner a img{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;  
+   }
+
+
+#class01{
+   margin: 20px 0px 20px 0px;
+   padding: 0px 0px 10px 0px;
+   border-bottom:dotted 1px #999999; 
+}
+
+#class02{
+   margin: 20px 0px 20px 0px;
+   padding: 0px 0px 10px 0px;
+   border-bottom:dotted 1px #999999; 
+}
+
+#class03{
+   margin: 20px 0px 20px 0px;
+   padding: 0px 0px 10px 0px;
+}
+
+
+/* トレーサビリティシステム導入手順設定----------------------------------------------------------- */ 
+
+
+#step{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 40px 0px;
+   border:dotted 1px #999999; 
+}
+
+#step p{
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#step h3 img{
+   margin: 15px 0 20px 10px;
+   padding: 0 0 0 10px;   
+}
+
+#step img{
+   margin: 0px 0 0px 10px;
+   padding: 0px 0 5px 10px;   
+}
+
+
+
+
+
+/* トレーサビリティシステム導入後イメージ設定----------------------------------------------------------- */ 
+
+
+#image{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 40px 0px;
+   border:dotted 1px #999999; 
+}
+
+#image p{
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#image h3 img{
+   margin: 15px 0 20px 10px;
+   padding: 0 0 0 10px;   
+}
+
+#image img{
+   margin: 0px 0 0px 0px;
+   padding: 0px 0 0px 0px;   
+}
+
+#image_contents{
+   padding: 20px 0px 20px 22px;
+}
+
+
+#image_banner {
+   width:675px;
+   float:left;
+   margin: 20px 0px 10px 8px;
+   }
+   
+#image_banner a img{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;  
+   }
+
+
+
+
+
+
+
+
+/* よくある質問設定----------------------------------------------------------- */ 
+
+
+#faq {
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 40px 0px;
+   border:dotted 1px #999999; 
+}
+
+#faq p{
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#faq h3 img{
+   margin: 15px 0 20px 10px;
+   padding: 0 0 0 10px;   
+}
+
+#faq img{
+   margin: 0px 0 0px 10px;
+   padding: 0px 0 5px 10px;   
+}
+
+#faq_contents {
+   margin: 0px 0 0 0;
+   padding: 10px 27px 15px 27px;
+}
+
+
+#faq_contents dl dt{
+   background: url(img/list_faq01.gif) no-repeat;
+   background-position:left center;
+   padding: 20px 0px 20px 80px;
+   font-weight:500;
+   color:#669900; 
+   
+}
+
+
+#faq_contents dl dd{
+   background: url(img/list_faq02.gif) no-repeat;
+   background-position:left center;
+   padding: 20px 0px 20px 80px;   
+}
+
+
+
+#faq_contents dl{
+   border-bottom:dotted 1px #999999; 
+}
+
+
+#faq_banner {
+   width:675px;
+   float:left;
+   margin: 20px 0px 10px 8px;
+   }
+   
+#faq_banner a img{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;  
+   }
+
+
+
+/* お問い合わせフォーム設定----------------------------------------------------------- */ 
+
+
+#form{
+   width: 709px;
+   float:left;
+   margin: 10px 0 0 0;
+   padding: 0 0 0 0px;
+}
+
+#form dl{
+   margin: 10px 0 0 0;
+   padding: 0 0 0 20px;   
+}
+
+#form dl dt{
+   margin: 10px 0 15px 0px;
+}
+
+#form dl dd{
+   margin: -30px 0 15px 90px;
+}
+
+#form dl p input{
+   margin: 5px 0 0px 0px;
+}
+
+#form dl dd textarea{
+   margin: 30px 0 0px 0px;
+}
+
+.send{
+   margin: 50px 0 0px 0px;
+}
+
+
+
+
+/* このサイトについて設定----------------------------------------------------------- */ 
+
+
+#about{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 20px 0px;
+   border:dotted 1px #999999; 
+}
+
+#about dl{
+   margin: 10px 0 0 0;
+   padding: 0 0 0 20px;
+}
+
+#about dl dt{
+   margin: 10px 0 15px 0px;
+   font-weight:600; 
+ 
+}
+
+#about dl dd{
+   margin: -30px 25px 15px 120px;
+   padding: 0 0 15px 0px;
+   border-bottom:dotted 1px #999999; 
+}
+
+#about h3 img{
+   margin: 15px 0 15px 0;
+   padding: 0 0 0 10px;   
+}
+
+
+
+
+/* 運営組織設定----------------------------------------------------------- */ 
+
+
+#gdj{
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 20px 0px;
+   border:dotted 1px #999999; 
+}
+
+#gdj dl{
+   margin: 10px 0 0 0;
+   padding: 0 0 0 20px;
+}
+
+#gdj dl dt{
+   margin: 10px 0 15px 0px;
+   font-weight:600; 
+ 
+}
+
+#gdj dl dd{
+   margin: -30px 25px 15px 100px;
+   padding: 0 0 15px 0px;
+   border-bottom:dotted 1px #999999; 
+}
+
+#gdj h3 img{
+   margin: 15px 0 15px 0;
+   padding: 0 0 0 10px;   
+}
+
+
+
+
+/* サイトマップ設定----------------------------------------------------------- */ 
+
+
+#sitemap {
+   width: 700px;
+   float:left;
+   margin: 10px 0px 0 3px;
+   padding: 0 0 20px 0px;
+   border:dotted 1px #999999; 
+}
+
+#sitemap dl{
+   margin: 10px 0 0 0;
+   padding: 0 0 0 20px;
+}
+
+#sitemap dl dt{
+   margin: 10px 0 15px 0px;
+   font-weight:600; 
+ 
+}
+
+#sitemap dl dd{
+   margin: -30px 25px 15px 150px;
+   padding: 0 0 15px 0px;
+   border-bottom:dotted 1px #999999; 
+}
+
+#sitemap h3 img{
+   margin: 15px 0 15px 0;
+   padding: 0 0 0 10px;   
+}
+
+
+#sitemap dl dd ul li {
+   padding: 0px 0 15px 0px; 
+}   
+
+
+
+
+#sitemap dl dd ul li a:link {
+   color:#336600;  
+   text-decoration:underline;
+}   
+
+#sitemap dl dd ul li a:visited {
+   color:#336600;  
+   text-decoration:underline;
+}   
+
+#sitemap dl dd ul li a:hover {
+   color:#669900;  
+   text-decoration:underline;
+}   
+   
+#sitemap dl dd ul li a:active {
+   color:#669900;  
+   text-decoration:underline;
+}   
+
+
+
+
+
+
+
+
+/* フッター設定----------------------------------------------------------- */ 
+
+
+#footer{
+  width: 1000px;
+  background:url(img/bg_footer.gif) repeat-x right bottom;
+  clear:both;
+  text-align:center;
+  padding-top:70px;
+}
+
+#footer ul{
+  padding:10px;
+}
+
+#footer ul li{
+  display: inline;
+  border-right: 1px solid #666666;
+  padding: 0 5px;
+}
+
+#footer ul li a{
+  font-size: 85%;
+}
+
+
+#footer p{
+  color: #ffffff;
+  font-size:85%;
+  margin-top:0px;
+}
+
+
+
+

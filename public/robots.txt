@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: http://www.higashiyodogawa-machizukuri.org/sitemap.xml
+Allow: /
+

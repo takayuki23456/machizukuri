@@ -1,0 +1,52 @@
+<% @seo_title = "問い合わせ～確認～ | 住んでみたい明るい町づくり - #{ConstantsList::SITE_NAME}"%>
+<div id="gdj">
+  <h2>問い合わせ～確認～</h2>
+  <% form_tag :action => 'thanks' do %>
+
+    <table style="padding:0 0 0 15px">
+      <tr>
+        <td width="150px" height="40"> ※ お名前</td>
+        <td>
+          <%= @contact.name %>
+          <%= hidden_field :contact, :name ,:size=>"50" %>　
+        </td>
+      </tr>
+      <tr>
+        <td height="40"> ※ メールアドレス</td>
+        <td>
+          <%= @contact.email  %>
+          <%= hidden_field :contact, :email ,:size=>"50" %>
+        </td>
+      </tr>
+      <tr>
+        <td height="40"> ※ 電話番号</td>
+        <td>
+          <%= @contact.tel %>
+          <%= hidden_field :contact, :tel ,:size=>"50" %>　
+        </td>
+      </tr>
+      <tr>
+        <td height="40"> ※ 問い合わせ項目</td>
+        <td>
+          <%= @contact.contact_kind  %>
+          <%= hidden_field :contact, :contact_kind %>
+        </td>
+      </tr>
+      <tr>
+        <td height="40"> ※ 問い合わせ内容</td>
+        <td>
+          <%= @contact.contact_content.gsub(/(\n)/,'<br />') %>
+          <%= hidden_field :contact, :contact_content %>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" align="right">
+          <%#=button_to("戻る", :action =>:index)%>
+        </td>
+        <td height="40"  align="left">
+          <%= submit_tag("送信する") %>
+        </td>
+      </tr>
+    </table>
+  <%end%>
+</div>

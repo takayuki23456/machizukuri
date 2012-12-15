@@ -1,0 +1,376 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- syslog_logger (MissingSourceFile)
+	from /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+	from /var/www/vhosts/00_default/user/machizukuri/config/environments/production.rb:8:in `load_environment'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/initializer.rb:206:in `load_environment'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/initializer.rb:199:in `load_environment'
+	 ... 15 levels...
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /usr/bin/mongrel_rails:19:in `load'
+	from /usr/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- /var/www/vhosts/00_default/user/machizukuri/vendor/plugins/exception_notification/lib/exception_notifier (MissingSourceFile)
+	from /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+	from /var/www/vhosts/00_default/user/machizukuri/config/environments/production.rb:16:in `load_environment'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/initializer.rb:206:in `load_environment'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/initializer.rb:199:in `load_environment'
+	 ... 15 levels...
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /usr/bin/mongrel_rails:19:in `load'
+	from /usr/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+"vol7"
+"vol7"
+"vol6"
+"vol5"
+"vol4"
+"vol7"
+"vol6"
+"vol7"
+"vol7"
+"vol7"
+"vol7"
+"vol7"
+"vol7"
+"vol6"
+"vol5"
+"vol4"
+"vol5"
+"vol7"
+"vol6"
+"vol7"
+"vol7"
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+"vol5"
+"vol1"
+"vol7"
+"vol7"
+"vol7"
+"vol5"
+"vol6"
+"vol7"
+"vol7"
+"vol7"
+"vol7"
+"vol1"
+"vol6"
+"vol7"
+"vol7"
+"vol6"
+"vol7"
+"vol7"
+"vol7"
+"vol6"
+"vol4"
+"vol7"
+"vol1"
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+#<Net::SMTPFatalError: 550 5.1.1 <poiuyt>: Recipient address rejected: User unknown in local recipient table
+>
+#<Net::SMTPFatalError: 550 5.1.1 <oiuytre>: Recipient address rejected: User unknown in local recipient table
+>
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+Mon Nov 08 22:40:19 +0900 2010: HTTP parse error, malformed request (127.0.0.1): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Nov 08 22:40:19 +0900 2010: REQUEST DATA: "GET: / HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept: image/gif, image/jpeg, */*\r\nUser-Agent: Mozilla/4.0 (compatible; http://fqdns.mixsn.com/ Server Info Search)\r\nX-Forwarded-For: 61.199.218.123\r\nX-Forwarded-Host: 210.253.110.112\r\nX-Forwarded-Server: hiyodogawa-machizukuri.org\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {}
+---
+#<ActionView::ActionViewError: Couldn't find template file for content/activity/vol/_year in ["/var/www/vhosts/00_default/user/machizukuri/app/views"]>
+Sat Feb 05 00:08:35 +0900 2011: HTTP parse error, malformed request (127.0.0.1): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Sat Feb 05 00:08:35 +0900 2011: REQUEST DATA: "GET: / HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept: image/gif, image/jpeg, */*\r\nUser-Agent: Mozilla/4.0 (compatible; http://fqdns.mixsn.com/ Server Info Search)\r\nX-Forwarded-For: 61.199.218.123\r\nX-Forwarded-Host: 210.253.110.112\r\nX-Forwarded-Server: hiyodogawa-machizukuri.org\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {}
+---
+Sat Feb 12 11:12:06 +0900 2011: HTTP parse error, malformed request (127.0.0.1): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Sat Feb 12 11:12:06 +0900 2011: REQUEST DATA: "GET: / HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept: image/gif, image/jpeg, */*\r\nUser-Agent: Mozilla/4.0 (compatible; http://fqdns.mixsn.com/ Server Info Search)\r\nX-Forwarded-For: 61.199.218.123\r\nX-Forwarded-Host: 210.253.110.112\r\nX-Forwarded-Server: hiyodogawa-machizukuri.org\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {}
+---

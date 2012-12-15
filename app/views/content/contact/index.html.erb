@@ -1,0 +1,50 @@
+<% @seo_title = "問い合わせ～入力フォーム～ | 住んでみたい明るい町づくり - #{ConstantsList::SITE_NAME}"%>
+  <div id="gdj">
+  <h2>問い合わせ～入力フォーム～ <font size="6"><b style="font-size: 16px; ">どなたでもお気軽にご参加ください</b></font></h2>
+ 
+   <%=image_tag("title0003.png")%>
+    <% form_tag :action => 'confirm' do %>
+
+      <table style="padding:0 0 0 15px">
+        <tr>
+          <td width="150px" height="40"> ※ お名前</td>
+          <td>
+            <%= text_field :contact, :name ,:size=>"50" %><br/>例 ：東淀川太郎
+            <%= put_error( :contact, :name) %>
+          </td>
+        </tr>
+        <tr>
+          <td height="40"> ※ メールアドレス</td>
+          <td>
+            <%= text_field :contact, :email ,:size=>"50" %><br/>例 ：yamada@higashiyodogawa-machizukuri.org
+            <%= put_error( :contact, :email) %>
+          </td>
+        </tr>
+        <tr>
+          <td height="40"> ※ 電話番号</td>
+          <td>
+            <%= text_field :contact, :tel ,:size=>"50" %><br/>例 ：0663263232
+            <%= put_error( :contact, :tel) %>
+          </td>
+        </tr>
+        <tr>
+          <td height="40"> ※ 問い合わせ項目</td>
+          <td>
+            <%= select :contact, :contact_kind ,contact_kind, :include_blank => false %>
+          </td>
+        </tr>
+        <tr>
+          <td height="40"> ※ 問い合わせ内容</td>
+          <td>
+            <%= text_area :contact, :contact_content %>
+            <%= put_error( :contact, :contact_content ) %>
+          </td>
+        </tr>
+        <tr>
+          <td height="40" colspan="2" align="center">
+            <%= submit_tag("確認する") %>
+          </td>
+        </tr>
+      </table>
+    <%end%>
+  </div>
